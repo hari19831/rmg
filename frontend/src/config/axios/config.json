@@ -1,0 +1,26 @@
+{
+    "CommonConstants": {
+        "web": {
+            "dev": {
+                "API_URL": "http://localhost:7074",
+                "Base_path": "/",
+                "sharedkey": {
+                    "key": "aW50ZWdyYUNhY2hlU2VydmljZQ=="
+                }
+            },
+            "live": {
+                "API_URL": "",
+                "Base_path": "/",
+                "sharedkey": {
+                    "key": "aW50ZWdyYUNhY2hlU2VydmljZQ=="
+                }
+            }
+        }
+    },
+    "Application": {
+        "name": "redisadmin",
+        "application": "web",
+        "version": "0.0.1",
+        "mode": "dev"
+    }
+}

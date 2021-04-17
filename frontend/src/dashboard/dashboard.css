@@ -1,0 +1,106 @@
+#dashboadPage{
+   padding: 30px !important;
+}
+
+table {
+   border-collapse: collapse !important;
+   width: 100% !important;
+}
+table#editableTable tr th, table#editableTable td {
+   border: 1px solid hsl(0, 0%, 82%) !important;
+   padding: 10px 20px !important;
+}
+
+.btn-stl-edit {
+   text-align: center !important;
+     background-color: green !important;
+     border-radius: 5px !important;
+     height: 25px !important;
+     width: 110px !important;
+     cursor: pointer !important;
+     color: white !important;
+ }
+ .btn-stl-clear{
+  text-align: center !important;
+  background-color: #FF6347 !important;
+  border-radius: 5px !important;
+  height: 25px !important;
+  width: 110px !important;
+  cursor: pointer !important;
+  color: white !important;
+ }
+ .btn-stl-info {
+  text-align: center !important;
+  background-color: #4169E1 !important;
+  border-radius: 5px !important;
+  height: 25px !important;
+  width: 110px !important;
+  cursor: pointer !important;
+  color: white !important;
+ }
+ .btn-stl-deactivate {
+   text-align: center !important;
+     background-color: red !important;
+     border-radius: 5px !important;
+     height: 25px !important;
+     width: 110px !important;
+     cursor: pointer !important;
+     color: white !important;
+ }
+ .btn-stl-disabled {
+  text-align: center !important;
+    background-color: lightgray !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+    width: 110px !important;
+    cursor: not-allowed;
+    color: white !important;
+}
+ #top {
+   position: fixed !important;
+   top: 0 !important;
+   left: 0 !important;
+   z-index: 999 !important;
+   width: 100% !important;
+   height: 50px !important;
+   background-color: black !important;
+ }
+ .space-between {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.head-txt {
+  color: whitesmoke !important;
+    font-size: 20px !important;
+    padding: 5px !important;
+}
+.logout-stl {
+  color: whitesmoke !important;
+  font-size: 20px !important;
+  padding: 10px !important;
+  cursor: pointer !important;
+}
+ .td-align{
+   display: flex !important;
+   justify-content: space-evenly !important;
+ }
+ .center {
+  text-align: center !important;
+ }
+ #pe-page-loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #ffffffbf;
+  /* opacity: 0.5; */
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#pe-page-loader.active {
+  display: flex;
+}

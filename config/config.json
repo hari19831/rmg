@@ -1,0 +1,23 @@
+{
+   "RabbitServer": {
+      "protocol": "amqp",
+      "hostname": "issez-s155",
+      "port": "5672",
+      "username": "test",
+      "password": "test",
+      "locale": "en_US",
+      "frameMax": 0,
+      "heartbeat": 10000,
+      "vhost": "/"
+   },
+   "RabbitURL":"http://issez-s155:15672/api/",
+   "vhost":"vhosts/",
+   "permissions":"permissions/",
+   "QueueTypes": [
+      "default",
+      "direct",
+      "header",
+      "topic",
+      "fanout"
+   ]
+}
